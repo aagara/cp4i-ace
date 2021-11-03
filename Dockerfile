@@ -1,4 +1,4 @@
-FROM cp.icr.io/cp/appc/ace-server-prod@sha256:f7a74de7e5cd3d1d56cabde1c11b174b1be643f48c3bce63ab5f344495877052
+FROM icr.io/appc-dev/ace-server@sha256:3714e2236265a557a78bc743fadd0923e4b78ee6a9f6dc321b6856bf0cd4d5fc
 USER root
 COPY bars_test /home/aceuser/bars
 RUN  chmod -R ugo+rwx /home/aceuser
